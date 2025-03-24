@@ -2,8 +2,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
-// Firebase configuration
-export const firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyBTcLxKnK7C-oqGXr2VFgqHJVJGBolQgBU",
   authDomain: "coins-58449.firebaseapp.com",
   projectId: "coins-58449",
