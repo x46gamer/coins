@@ -1,0 +1,188 @@
+.dashboard-container {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.welcome-section {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quick-stats {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.stat-icon {
+  font-size: 2rem;
+}
+
+.stat-info h3 {
+  font-size: 0.875rem;
+  color: var(--gray);
+  margin: 0;
+}
+
+.stat-info p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.quick-actions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.action-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.action-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.action-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.action-card p {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.875rem;
+}
+
+.exchange-rates-section {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.rates-slider {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.rate-card {
+  min-width: 200px;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.currency-pair {
+  font-size: 0.875rem;
+  color: var(--gray);
+}
+
+.rate-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.rate-change {
+  font-size: 0.875rem;
+}
+
+.rate-change.positive {
+  color: var(--success);
+}
+
+.recent-trades-section {
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.trades-table {
+  margin-top: 1rem;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+  font-weight: 600;
+  color: var(--gray);
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.trade-type {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.trade-type.buy {
+  background: var(--success);
+  color: white;
+}
+
+.trade-type.sell {
+  background: var(--warning);
+  color: white;
+}
+
+.status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-size: 0.875rem;
+  width: fit-content;
+}
+
+.status.completed {
+  background: var(--success);
+  color: white;
+}
+
+.status.pending {
+  background: var(--warning);
+  color: white;
+} 
