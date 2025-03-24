@@ -2,14 +2,15 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getDatabase } from 'firebase/database';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDYBQxVlY1jqrBH6WQeGRoX5AJkVZXQBYo",
-  authDomain: "currency-exchange-community.firebaseapp.com",
-  projectId: "currency-exchange-community",
-  storageBucket: "currency-exchange-community.appspot.com",
-  messagingSenderId: "1098342071540",
-  appId: "1:1098342071540:web:b0c0e1c9c9b9b9b9b9b9b9",
-  databaseURL: "https://currency-exchange-community-default-rtdb.firebaseio.com"
+// Firebase configuration
+export const firebaseConfig = {
+  apiKey: "AIzaSyBTcLxKnK7C-oqGXr2VFgqHJVJGBolQgBU",
+  authDomain: "coins-58449.firebaseapp.com",
+  projectId: "coins-58449",
+  storageBucket: "coins-58449.firebasestorage.app",
+  messagingSenderId: "654033252445",
+  appId: "1:654033252445:web:3a6de5d2f77306cfb0ddb4",
+  databaseURL: "https://coins-58449-default-rtdb.europe-west1.firebasedatabase.app"
 };
 
 // Initialize Firebase
